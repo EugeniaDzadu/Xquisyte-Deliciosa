@@ -1,0 +1,171 @@
+#bgimg{
+    background-image: url(../Images/glasses.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    transition: ease-in all 5.0s;
+    animation-name: changebackgroundimage;
+    animation-duration: 10.0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changebackgroundimage{
+    0%{
+        background-image: url(../Images/alex-haney-CAhjZmVk5H4-unsplash.jpg);   
+    }
+    50%{
+        background-image:url(../Images/crew-szCvt1gP2d4-unsplash.jpg) ;
+    }
+    100%{
+        background-image: url(../Images/shawnanggg-nmpW_WwwVSc-unsplash.jpg);
+    }
+
+}
+
+.navlist{
+        padding: 15px;
+        
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+
+.arrange{
+    list-style: none;
+    margin-left: 15%;
+    
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: black;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.socials{
+    /* border: 1px #fff; */
+    margin-left: 80%;
+    margin-top: 5%;
+}
+.insta{
+    background-color: #fff;
+    color: black;
+    font-size: 200%;
+    padding: 10px;
+}
+
+#drinks{
+    /* background-image: url(../drinks.jpg); */
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 80vh;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+#noodles{
+    background-color: #fff;
+    width: 50%;
+    margin-left: 15%;
+}
+
+#seafoods{
+    background-image: url(../Images/SEAFOOD.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 80%; */
+    height: 80vh;
+    margin-left: 20%;
+    margin-top: 35px;
+
+}
+
+.seafood{
+    font-weight: 700;
+    font-size: large;
+    list-style: none;
+    color: #fff;
+    /* margin-top: 5px; */
+   
+}
+
+#seafood1{
+         margin-right: 50%;
+         
+}
+
+#seafoods2{
+    margin-left: 35%;
+    
+}
+
+#appimg{
+    background-image: url(../Images/SUSHI.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 60%;
+    height: 60vh;
+    margin-left: 20%;
+    margin-top: 5%;
+    /* filter: blur(5px);
+    -webkit-filter: blur(5px); */
+}
+
+.bg-text{
+    color: #fff;
+    font-weight: bold;
+    font-size: larger;
+    font-style: oblique;
+}
+
+.about{
+    /* background-color: #fff; */
+    border: 1px solid black;
+    box-shadow: 10px 10px;
+    width: 60%;
+    height: 80vh;
+    background: transparent;
+    margin-left: 20%;
+    /* background-image: linear-gradient(to right, black , brown); */
+
+}
+
+#follow{
+     color: #fff;
+     font-weight: bold;
+     margin-left: 2%;
+     text-shadow: 5px 3px black;
+     margin-top: -15%;
+}
